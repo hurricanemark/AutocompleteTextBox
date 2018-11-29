@@ -28,7 +28,7 @@ class App extends Component {
 	        <HideableText text="Can you save this world?" />
 	    </div>
 	    <div>
-	    <a href="https://github.com/hurricanemark">Visit my github repository here.</a>
+	    <a href="https://github.com/hurricanemark/AutocompleteTextBox">Visit my github repository here.</a>
 	    </div>
 	</body>
 

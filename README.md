@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Getting Started
+
+mkdir ~/js-react-project
+cd ~/js-react-project
+sudo apt-get update
+sudo apt-get install npm
+sudo npm install -g create-react-app
+create-react-app my-js-react-app
+
+git clone https://github.com/hurricanemark/AutocompleteTextBox.git
+
+** search and replace romiland-app with my-js-react-app **
+
 ## Available Scripts
 
 In the project directory, you can run:

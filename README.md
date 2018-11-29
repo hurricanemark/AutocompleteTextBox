@@ -3,10 +3,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 
 mkdir ~/js-react-project
+
 cd ~/js-react-project
+
 sudo apt-get update
+
 sudo apt-get install npm
+
 sudo npm install -g create-react-app
+
 create-react-app my-js-react-app
 
 git clone https://github.com/hurricanemark/AutocompleteTextBox.git

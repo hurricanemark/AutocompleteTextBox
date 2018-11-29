@@ -1,4 +1,6 @@
 .con
+build
+build/*
 configure.sh
 node_modules
 node_modules/*

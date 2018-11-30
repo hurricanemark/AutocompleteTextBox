@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-	    JS React Rendering Auto-complete Text
+	    ReactJS Rendering Auto-complete Text
 	    <div className="app-Component">
 	    	<li>Cities in CA:</li>
 	    	<AutoCompleteText items={CaliforniaCities}/>

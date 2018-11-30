@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 import HideableText from './HideableText';
 import AutoCompleteText from './AutocompleteText';
 import CaliforniaCities from './CaliforniaCities';
 import CaliforniaStadiums from './CaliforniaStadiums';
+import StockSymbols from './StockSymbols';
 
 class App extends Component {
   render() {
@@ -19,20 +20,21 @@ class App extends Component {
 	    	<br /><br />
 	    	<li>Sport venues:</li>
 	    	<AutoCompleteText items={CaliforniaStadiums}/>
+	    	<br /><br />
+	    	<li>Stock Symbols:</li>
+	    	<AutoCompleteText items={StockSymbols}/>
 	    </div>
-
-
 	</header>
-	<body>
+	<footer>
     	    <div className="App-content">
 	        <HideableText text="Can you save this world?" />
 	    </div>
 	    <div>
 	    <a href="https://github.com/hurricanemark/AutocompleteTextBox">Visit my github repository here.</a>
 	    </div>
-	</body>
-
+	</footer>
       </div>
+
     );
   }
 }

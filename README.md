@@ -18,6 +18,8 @@ git clone https://github.com/hurricanemark/AutocompleteTextBox.git
 
 ** search and replace romiland-app with my-js-react-app **
 
+![picture](ScreenshotAutoCompleteText.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
